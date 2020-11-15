@@ -1,0 +1,15 @@
+name = "NumMat"
+uuid = "49623fec-419c-11e9-3823-bdf44d0d9bd0"
+authors = ["Martin Vuk <martin.vuk@fri.uni-lj.si>"]
+version = "0.1.4"
+
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
